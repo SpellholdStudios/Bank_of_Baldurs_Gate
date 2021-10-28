@@ -1,0 +1,31 @@
+
+
+IF
+  Global("BankBGInitiated","GLOBAL",2)
+  !GlobalTimerNotExpired("BankBGTimer","GLOBAL")
+THEN
+  RESPONSE #100
+  CreateCreature("BANKDIRE",[200.582],SE)
+  CreateCreature("BANKGRD2",[288.510],NE)
+  CreateCreature("BANKGRD2",[376.570],NE)
+  CreateCreature("BANKGRD2",[466.282],NW)
+  CreateCreature("BANKGRD2",[611.347],NW)
+  CreateCreature("BANKGRD1",[635.485],SW)
+  CreateCreature("BANKGRD1",[579.544],NW)
+  CreateCreature("BANKGRD2",[766.237],NE)
+  CreateCreature("BANKGRD1",[910.444],NW)  
+  CreateCreature("BANKGRD1",[517.703],SW)  
+  SetGlobal("BankBGInitiated","GLOBAL",3)
+END
+
+
+
+IF 
+ Global("BankBGDirectorAppeared","GLOBAL",1)
+ Dead("bankdirector")
+ THEN
+   RESPONSE #100
+   ActionOverride("bankdirector",Kill(Myself))
+   ActionOverride("bankdirector",DestroySelf())
+END
+ 

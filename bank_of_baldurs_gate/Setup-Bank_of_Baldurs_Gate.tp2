@@ -1,0 +1,59 @@
+BACKUP ~bank_of_Baldurs_Gate/backup~
+AUTHOR ~"Lassal"~
+
+
+LANGUAGE "English" "english" 
+
+  
+
+
+
+BEGIN ~[BANK OF BALDURS GATE] Bank in building next to Iron Throne (City of Baldur's Gate)~
+
+
+
+ COMPILE ~bank_of_Baldurs_Gate/baf/BANKIR.BAF~ 
+ COMPILE ~bank_of_Baldurs_Gate/dlg/BANKDIRE.D~   
+ COMPILE ~bank_of_Baldurs_Gate/dlg/BANKMANA.D~   
+  COMPILE ~bank_of_Baldurs_Gate/dlg/BANKGUAR.D~ 
+   
+COPY ~bank_of_Baldurs_Gate/cre/BANKDIRE.cre~   ~override/BANKDIRE.cre~
+  SAY NAME1 ~Director Billboo~
+  SAY NAME2 ~Director Billboo~ 
+
+COPY ~bank_of_Baldurs_Gate/cre/BANKMANA.cre~   ~override/BANKMANA.cre~
+  SAY NAME1 ~Manager Samriel~
+  SAY NAME2 ~Manager Samriel~ 
+
+ COPY ~bank_of_Baldurs_Gate/cre/BANKGRD1.cre~   ~override/BANKGRD1.cre~
+  SAY NAME1 ~Bank Guard~
+  SAY NAME2 ~Bank Guard~ 
+
+  
+  COPY ~bank_of_Baldurs_Gate/cre/BANKGRD2.cre~   ~override/BANKGRD2.cre~
+  SAY NAME1 ~Bank Guard~
+  SAY NAME2 ~Bank Guard~ 
+
+COPY ~bank_of_Baldurs_Gate/img/BANKDIRM.bmp~   ~override/BANKDIRM.bmp~  
+COPY ~bank_of_Baldurs_Gate/img/BANKDIRL.bmp~   ~override/BANKDIRL.bmp~
+COPY ~bank_of_Baldurs_Gate/img/BANKDIRS.bmp~   ~override/BANKDIRS.bmp~  
+   
+COPY ~bank_of_Baldurs_Gate/img/BANKMANM.bmp~   ~override/BANKMANM.bmp~  
+COPY ~bank_of_Baldurs_Gate/img/BANKMANL.bmp~   ~override/BANKMANL.bmp~
+COPY ~bank_of_Baldurs_Gate/img/BANKMANS.bmp~   ~override/BANKMANS.bmp~  
+    
+COPY ~bank_of_Baldurs_Gate/img/BANKGD1M.bmp~   ~override/BANKGD1M.bmp~  
+COPY ~bank_of_Baldurs_Gate/img/BANKGD1L.bmp~   ~override/BANKGD1L.bmp~
+COPY ~bank_of_Baldurs_Gate/img/BANKGD1S.bmp~   ~override/BANKGD1S.bmp~  
+     
+COPY ~bank_of_Baldurs_Gate/img/BANKGD2M.bmp~   ~override/BANKGD2M.bmp~  
+COPY ~bank_of_Baldurs_Gate/img/BANKGD2L.bmp~   ~override/BANKGD2L.bmp~
+COPY ~bank_of_Baldurs_Gate/img/BANKGD2S.bmp~   ~override/BANKGD2S.bmp~  
+   
+   
+      
+EXTEND_TOP  ~BG1200.bcs~ ~bank_of_Baldurs_Gate/baf/BG1200.BAF~   
+EXTEND_TOP  ~BG1201.bcs~ ~bank_of_Baldurs_Gate/baf/BG1201.BAF~    
+EXTEND_TOP  ~BG1202.bcs~ ~bank_of_Baldurs_Gate/baf/BG1202.BAF~
+EXTEND_TOP  ~BD0050.bcs~ ~bank_of_Baldurs_Gate/baf/BD0050.BAF~
+

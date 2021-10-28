@@ -1,0 +1,14 @@
+IF
+  Global("BankBGInitiated","GLOBAL",0)
+  Global("BankBGCleaned","GLOBAL",1)
+  OR(6)
+  		AreaCheckObject("BG1200",Player1)
+		AreaCheckObject("BG1200",Player2)
+		AreaCheckObject("BG1200",Player3)
+		AreaCheckObject("BG1200",Player4)
+		AreaCheckObject("BG1200",Player5)
+		AreaCheckObject("BG1200",Player6)
+THEN
+  RESPONSE #100
+  SetGlobal("BankBGInitiated","GLOBAL",1)
+END
