@@ -39,18 +39,4 @@ COPY ~bank_of_baldurs_gate/cre/bankgrd1.cre~ ~override~
 	SAY NAME2 @53
 
 
-COPY ~bank_of_baldurs_gate/img/BANKDIRM.bmp~   ~override/BANKDIRM.bmp~
-COPY ~bank_of_baldurs_gate/img/BANKDIRL.bmp~   ~override/BANKDIRL.bmp~
-COPY ~bank_of_baldurs_gate/img/BANKDIRS.bmp~   ~override/BANKDIRS.bmp~
-
-COPY ~bank_of_baldurs_gate/img/BANKMANM.bmp~   ~override/BANKMANM.bmp~
-COPY ~bank_of_baldurs_gate/img/BANKMANL.bmp~   ~override/BANKMANL.bmp~
-COPY ~bank_of_baldurs_gate/img/BANKMANS.bmp~   ~override/BANKMANS.bmp~
-
-COPY ~bank_of_baldurs_gate/img/BANKGD1M.bmp~   ~override/BANKGD1M.bmp~
-COPY ~bank_of_baldurs_gate/img/BANKGD1L.bmp~   ~override/BANKGD1L.bmp~
-COPY ~bank_of_baldurs_gate/img/BANKGD1S.bmp~   ~override/BANKGD1S.bmp~
-
-COPY ~bank_of_baldurs_gate/img/BANKGD2M.bmp~   ~override/BANKGD2M.bmp~
-COPY ~bank_of_baldurs_gate/img/BANKGD2L.bmp~   ~override/BANKGD2L.bmp~
-COPY ~bank_of_baldurs_gate/img/BANKGD2S.bmp~   ~override/BANKGD2S.bmp~
+COPY ~%MOD_FOLDER%/portraits~ ~override~
