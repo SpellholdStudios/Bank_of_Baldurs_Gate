@@ -1,0 +1,18 @@
+@0    = ~[BANK OF BALDURS GATE] Bank in building next to Iron Throne (City of Baldur's Gate)~
+
+
+/* ----------- *
+ *  Creatures  *
+ * ----------- */
+@51   = ~Director Billboo~
+@52   = ~Manager Samriel~
+@53   = ~Bank Guard~
+
+
+/* ------------ *
+ *  bankir.baf  *
+ * ------------ */
+@101  = ~A thief detected!~
+@102  = ~To arms! We're under attack!~
+@103  = ~Avenge me! We're under attack!~
+@104  = ~Director is killed! Avenge our boss!~

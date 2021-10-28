@@ -1,46 +1,45 @@
 IF
-  Global("BankBGRobbed","GLOBAL",1)
-  Global("Hostile","LOCALS",0)
+	Global("BankBGRobbed","GLOBAL",1)
+	Global("Hostile","LOCALS",0)
 THEN
-  RESPONSE #100
-  SetGlobal("Hostile","LOCALS",1)
-  Enemy()
+	RESPONSE #100
+		SetGlobal("Hostile","LOCALS",1)
+		Enemy()
 END
-
 
 IF
 	PickPocketFailed([PC])
 THEN
 	RESPONSE #100
-		DisplayString(Myself,~A thief detected!~)
+		DisplayString(Myself,@101)  // ~A thief detected!~
 		SetGlobal("BankBGRobbed","GLOBAL",1)
 END
 
 IF
-   AttackedBy([PC],DEFAULT)
- THEN
+	AttackedBy([PC],DEFAULT)
+THEN
     RESPONSE #100
-	SetGlobal("BankBGRobbed","GLOBAL",1)
- 		DisplayString(Myself,~To arms! We're under attack!~)
-	Enemy()
-END		
+		SetGlobal("BankBGRobbed","GLOBAL",1)
+ 		DisplayString(Myself,@102)  // ~To arms! We're under attack!~
+		Enemy()
+END
 
-IF 
-  Die()
-   THEN
+IF
+	Die()
+THEN
     RESPONSE #100
-	SetGlobal("BankBGRobbed","GLOBAL",1)
- 		DisplayString(Myself,~Avenge me! We're under attack!~)
-	Enemy()
-END	
+		SetGlobal("BankBGRobbed","GLOBAL",1)
+ 		DisplayString(Myself,@103)  // ~Avenge me! We're under attack!~
+		Enemy()
+END
 
-IF 
- Dead("bankdirector")
- Global("Avenge","LOCALS",0)
- THEN
-   RESPONSE #100
- SetGlobal("BankBGRobbed","GLOBAL",1)
-  		DisplayString(Myself,~Director is killed! Avenge our boss!~)
-	Enemy()
-	 SetGlobal("Avenge","LOCALS",1)
-END	
+IF
+	Dead("bankdirector")
+	Global("Avenge","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("BankBGRobbed","GLOBAL",1)
+  		DisplayString(Myself,@104)  // ~Director is killed! Avenge our boss!~
+		Enemy()
+		SetGlobal("Avenge","LOCALS",1)
+END

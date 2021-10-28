@@ -16,7 +16,7 @@ Baldur's Gate Trilogy and EET<h3>
 
 **Original Author:** Lassal  
 **Mod Website:** <a href="">Spellhold Studios</a>  
-**Mod Forum:** <a href="></a><br>
+**Mod Forum:** <a href=""></a><br>
 
 ## 
 
@@ -45,6 +45,7 @@ PPPS Don't know how to rename location name or place location on area map yet.
 
 ##### Version 0.3 &nbsp;(October , 2021)
 
+- TRAified mod.
 - Removed useless :file_folder: "*backup*" folder.
 - Lower cased files.
 - .
