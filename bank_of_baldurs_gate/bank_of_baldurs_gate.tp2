@@ -3,6 +3,8 @@ AUTHOR ~Lassal~
 
 VERSION ~v0.3~
 
+README ~bank_of_baldurs_gate/readme/bank_of_baldurs_gate-readme-%LANGUAGE%.txt~ ~bank_of_baldurs_gate/readme/bank_of_baldurs_gate-readme-english.txt~
+
 ALWAYS
 
 	ACTION_IF !VARIABLE_IS_SET run_once BEGIN // ALWAYS block must run only once per install!

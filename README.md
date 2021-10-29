@@ -15,7 +15,7 @@
 
 **Original Author:** Lassal  
 **Mod Website:** <a href="http://www.shsforums.net/forum/633-bgee-modding/">Spellhold Studios</a>  
-**Mod Forum:** <a href="http://www.shsforums.net/topic/60019-mod-bank-of-baldurs-gate-for-eet/"></a><br>
+**Mod Forum:** <a href="http://www.shsforums.net/topic/60019-mod-bank-of-baldurs-gate-for-eet/">Bank of Baldur's Gate</a><br>
 
 ## 
 
@@ -57,8 +57,6 @@ Near the Iron Throne Headquarters, there is a locked dwelling with ogre magi ins
 Director will be waiting for you near bank after initial happenings of Siege of Dragonspear, so you can withdraw your money from your account if needed.
 
 :warning: in BG2 campaign, if you want to go to the bank and retrieve your money, you need to install a separate mod that enables visiting Baldur's Gate city after BG2 part started.
-
-PPPS Don't know how to rename location name or place location on area map yet.
 <div align="right"><a href="#top">Back to top</a></div>
 
 
@@ -203,18 +201,19 @@ In addition to the methods above for removing individual components, you can com
 
 ## <a name="versions" id="versions"></a>Version History
 
-##### Version 0.3 &nbsp;(October , 2021)
+##### Version 0.3 &nbsp;(October nn, 2021)
 
 - Added *bank_of_baldurs_gate.ini* metadata file (including dynamic installation order syntax and global `LABELS`) to support AL|EN's "Project Infinity".
-- Renamed *Setup-Bank_of_Baldurs_Gate.tp2.tp2* -> *bank_of_baldurs_gate.tp2*, and moved it to mod top folder to support AL|EN's "Project Infinity".
+- Renamed *Setup-Bank_of_Baldurs_Gate.tp2* -> *bank_of_baldurs_gate.tp2*, and moved it into mod top folder to support AL|EN's "Project Infinity".
 - Added `VERSION` flag.
 - Added `README` command.
 - Added Immutability concept.
 - Added component `DESIGNATED` number and "*sh_bank_of_baldurs_gate*" `LABEL`.
 - Added `REQUIRE_PREDICATE` conditions to avoid installing the mod in inaccurate games.
+- Added map notes.
 - Added French translation (thanks Gwendolyne).
 - Added Russian translation (thanks yota13).
-- Proofreading.
+- Proofread English strrefs.
 - TRAified mod.
 - Translated, updated, and renamed readme files to *bank_of_baldurs_gate-readme-%LANGUAGE%.txt*, then moved them into new :file_folder: "*readme*" folder.
 - Removed useless :file_folder: "*backup*" folder.
