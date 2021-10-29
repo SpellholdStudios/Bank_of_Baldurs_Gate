@@ -13,6 +13,10 @@ LANGUAGE "Russian (translation by yota13)"
          "russian"
          "bank_of_baldurs_gate/lang/russian/setup.tra"
 
+LANGUAGE "Francais (traduction : Gwendolyne)"
+         "french"
+         "bank_of_baldurs_gate/lang/french/setup.tra"
+
 
 /* =========================== *
  *    Bank of Baldur's Gate    *

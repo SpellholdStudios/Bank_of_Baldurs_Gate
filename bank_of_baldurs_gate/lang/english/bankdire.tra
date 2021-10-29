@@ -1,7 +1,7 @@
 @0    = ~Greetings, mister.~
-@1    = ~You know there are trouble times. Even I must work on street, because it's too dangerous to keep bank opened and these hours.~
+@1    = ~You know there are trouble times. Even I must work on the street, because it's too dangerous to keep the bank opened and these hours.~
 @2    = ~I heard that dukes asked you to confront this heretic Crusade, and I thought that you maybe in need of money.~
-@3    = ~So I took my guards and now I found you.~
+@3    = ~So I took my guards, and now I found you.~
 @4    = ~I want to add money to my deposit.~
 @5    = ~I want to take money from my deposit.~
 @6    = ~Dont' need bank's services right now.~
@@ -18,13 +18,13 @@
 @17   = ~What do you want?~
 @18   = ~Greetings, lady!~
 @19   = ~Not again! Guards, to arms!~
-@20   = ~OK, mister. This is out typical contract you must sign to use our deposit.~
+@20   = ~OK, mister. This is our typical contract you must sign to use our deposit.~
 @21   = ~Sign it there... And there...~
 @22   = ~Good, now you are a customer of most trusted bank of all Sword Coast.~
 @23   = ~Will you put some sum of money on deposit right now?~
-@24   = ~Yes, of cause.~
+@24   = ~Yes, of course.~
 @25   = ~Maybe later.~
-@26   = ~OK, lady. This is out typical contract you must sign to use our deposit.~
+@26   = ~OK, lady. This is our typical contract you must sign to use our deposit.~
 @27   = ~The wish of a customer is my wish.~
 @28   = ~Haha! Your sense of humor is as beautiful as you are, milady.~
 @29   = ~I am very concerned about yours mental state, customer. Can I suggest you must visit a doctor?~
@@ -59,4 +59,4 @@
 @58   = ~I want to take 40000 gold from my deposit.~
 @59   = ~I want to take 50000 gold from my deposit.~
 @60   = ~I want to take 100000 gold from my deposit.~
-@61   = ~I dont' want nothing to do with deposit right now.~
+@61   = ~I don't want nothing to do with deposit right now.~
