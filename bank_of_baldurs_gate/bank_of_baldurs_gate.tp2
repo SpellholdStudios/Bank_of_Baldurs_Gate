@@ -1,0 +1,77 @@
+BACKUP ~weidu_external/backup/bank_of_baldurs_gate~
+AUTHOR ~Lassal~
+
+VERSION ~v0.3~
+
+ALWAYS
+
+	ACTION_IF !VARIABLE_IS_SET run_once BEGIN // ALWAYS block must run only once per install!
+
+		SILENT
+
+		OUTER_SET run_once = 1
+
+		// Required because of non-standard BACKUP path
+		OUTER_TEXT_SPRINT MOD_FOLDER "bank_of_baldurs_gate"
+
+		// Creates the external folders
+		ACTION_FOR_EACH folder IN ~weidu_external~ ~weidu_external/backup~ BEGIN
+			ACTION_IF (NOT DIRECTORY_EXISTS ~%folder%~) BEGIN
+				MKDIR ~%folder%~
+			END
+		END
+
+	END	// of ACTION_IF !VARIABLE_IS_SET run_once BEGIN
+
+END
+
+
+AUTO_TRA ~bank_of_baldurs_gate/lang/%s~
+
+
+LANGUAGE ~English~
+         ~english~
+         ~bank_of_baldurs_gate/lang/english/setup.tra~
+
+LANGUAGE "Russian (translation by yota13)"
+         ~russian~
+         ~bank_of_baldurs_gate/lang/russian/setup.tra~
+
+LANGUAGE ~Francais (traduction : Gwendolyne)~
+         ~french~
+         ~bank_of_baldurs_gate/lang/french/setup.tra~
+
+
+/* =========================== *
+ *    Bank of Baldur's Gate    *
+ * =========================== */
+BEGIN @0                             // ~Bank of Baldur's Gate~
+DESIGNATED 0 LABEL ~sh_bank_of_baldurs_gate~
+REQUIRE_PREDICATE GAME_IS ~eet~ @10  // ~This mod is only available for EET.~
+
+SILENT
+
+COMPILE ~bank_of_baldurs_gate/dlg~
+
+COMPILE ~bank_of_baldurs_gate/baf/bankir.baf~
+EXTEND_TOP ~bg1200.bcs~ ~bank_of_baldurs_gate/baf/bg1200.baf~
+EXTEND_TOP ~bg1201.bcs~ ~bank_of_baldurs_gate/baf/bg1201.baf~
+EXTEND_TOP ~bg1202.bcs~ ~bank_of_baldurs_gate/baf/bg1202.baf~
+EXTEND_TOP ~bd0050.bcs~ ~bank_of_baldurs_gate/baf/bd0050.baf~
+
+
+COPY ~bank_of_baldurs_gate/cre/bankdire.cre~ ~override~
+	SAY NAME1 @51
+	SAY NAME2 @51
+
+COPY ~bank_of_baldurs_gate/cre/bankmana.cre~ ~override~
+	SAY NAME1 @52
+	SAY NAME2 @52
+
+COPY ~bank_of_baldurs_gate/cre/bankgrd1.cre~ ~override~
+     ~bank_of_baldurs_gate/cre/bankgrd2.cre~ ~override~
+	SAY NAME1 @53
+	SAY NAME2 @53
+
+
+COPY ~%MOD_FOLDER%/portraits~ ~override~
