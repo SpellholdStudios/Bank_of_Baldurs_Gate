@@ -9,4 +9,5 @@ THEN
 		CreateCreature("BANKDIRE",[808.750],S)
 		CreateCreature("BANKGRD2",[758.772],S)
 		CreateCreature("BANKGRD2",[865.754],S)
+		AddMapNote([1068.940],@0) // Bank of Baldur's Gate
 END

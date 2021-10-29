@@ -12,4 +12,5 @@ IF
 THEN
 	RESPONSE #100
 		SetGlobal("BankBGInitiated","GLOBAL",1)
+		AddMapNote([1044.968],@0) // Bank of Baldur's Gate
 END
