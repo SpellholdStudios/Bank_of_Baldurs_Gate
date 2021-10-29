@@ -1,14 +1,12 @@
 IF
-  Global("BankBGDepositOpened","GLOBAL",1)
-  !Dead("bankdirector")
-  Global("BankBGRobbed","GLOBAL",0)
-  Global("BankBGDirectorAppeared","GLOBAL",0)
+	Global("BankBGDepositOpened","GLOBAL",1)
+	!Dead("bankdirector")
+	Global("BankBGRobbed","GLOBAL",0)
+	Global("BankBGDirectorAppeared","GLOBAL",0)
 THEN
-  RESPONSE #100
-  SetGlobal("BankBGDirectorAppeared","GLOBAL",1)
-  CreateCreature("BANKDIRE",[808.750],S)
-  CreateCreature("BANKGRD2",[758.772],S)
-  CreateCreature("BANKGRD2",[865.754],S)
+	RESPONSE #100
+		SetGlobal("BankBGDirectorAppeared","GLOBAL",1)
+		CreateCreature("BANKDIRE",[808.750],S)
+		CreateCreature("BANKGRD2",[758.772],S)
+		CreateCreature("BANKGRD2",[865.754],S)
 END
-
-

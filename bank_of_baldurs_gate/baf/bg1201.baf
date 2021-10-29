@@ -1,36 +1,34 @@
 IF
-  Global("BankBGInitiated","GLOBAL",1)
-  !GlobalTimerNotExpired("BankBGTimer","GLOBAL")  
+	Global("BankBGInitiated","GLOBAL",1)
+	!GlobalTimerNotExpired("BankBGTimer","GLOBAL")
 THEN
-  RESPONSE #100
-  CreateCreature("BANKGRD1",[544.156],SE)
-  CreateCreature("BANKGRD1",[865.415],E)
-  CreateCreature("BANKGRD2",[387.766],W)
-  CreateCreature("BANKGRD2",[523.768],E)
-  CreateCreature("BANKGRD1",[456.265],SE)
-  CreateCreature("BANKGRD1",[280.462],SE)
-  CreateCreature("BANKGRD1",[576.327],S)
-  CreateCreature("BANKGRD1",[665.372],S)
-  CreateCreature("BANKGRD2",[604.632],SE)  
-  CreateCreature("BANKGRD2",[724.498],S)  
-  CreateCreature("BANKMANA",[708.551],S)  
-SetGlobal("BankBGInitiated","GLOBAL",2)
-//  ActionOverride("OGRE",DestroySelf())
- // ActionOverride("OGRE",DestroySelf())
- // ActionOverride("OGRE",DestroySelf())
- // ActionOverride("OGRE",DestroySelf())
- // ActionOverride("OGRE",DestroySelf()) 
+	RESPONSE #100
+		CreateCreature("BANKGRD1",[544.156],SE)
+		CreateCreature("BANKGRD1",[865.415],E)
+		CreateCreature("BANKGRD2",[387.766],W)
+		CreateCreature("BANKGRD2",[523.768],E)
+		CreateCreature("BANKGRD1",[456.265],SE)
+		CreateCreature("BANKGRD1",[280.462],SE)
+		CreateCreature("BANKGRD1",[576.327],S)
+		CreateCreature("BANKGRD1",[665.372],S)
+		CreateCreature("BANKGRD2",[604.632],SE)
+		CreateCreature("BANKGRD2",[724.498],S)
+		CreateCreature("BANKMANA",[708.551],S)
+		SetGlobal("BankBGInitiated","GLOBAL",2)
+//		ActionOverride("OGRE",DestroySelf())
+//		ActionOverride("OGRE",DestroySelf())
+//		ActionOverride("OGRE",DestroySelf())
+//		ActionOverride("OGRE",DestroySelf())
+//		ActionOverride("OGRE",DestroySelf())
 END
 
-
-IF 
-  Global("BankBGCleaned","GLOBAL",0)
-  NumCreatureVsPartyLT([ENEMY],0)
-//  Dead("ogre")
-  THEN
-  RESPONSE #100
-  SetGlobal("BankBGCleaned","GLOBAL",1)
-  SetGlobalTimer("BankBGTimer","GLOBAL",ONE_DAY)
-  Wait(5)
+IF
+	Global("BankBGCleaned","GLOBAL",0)
+	NumCreatureVsPartyLT([ENEMY],0)
+//	Dead("ogre")
+THEN
+	RESPONSE #100
+		SetGlobal("BankBGCleaned","GLOBAL",1)
+		SetGlobalTimer("BankBGTimer","GLOBAL",ONE_DAY)
+		Wait(5)
 END
-
