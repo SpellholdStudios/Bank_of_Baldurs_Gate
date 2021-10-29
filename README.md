@@ -7,10 +7,9 @@
 ![Supported games](https://img.shields.io/static/v1?label=supported%20games&message=EET&color=dodgerblue)
 
 
-<div align="center"><h1></a>Bank of Baldur's Gate for EET</h1>
+<div align="center"><h1></a>Bank of Baldur's Gate</h1>
 
-<h3>A mod hosted at Spellhold Studios for Baldur's Gate II:ToB (original and EE games),<br>
-Baldur's Gate Trilogy and EET<h3>
+<h3>A mod hosted at Spellhold Studios for EET<h3>
 
 </div><br>
 
@@ -23,9 +22,9 @@ Baldur's Gate Trilogy and EET<h3>
 # 
 
 
-The main idea of this mod is a throught, that often player is left without money. And it's stupid that in big city of Baldur's Gate there is not a single bank. So I made this mod.
+The main idea of this mod is a thought, that often player is left without money. And it's stupid that in big city of Baldur's Gate there is not a single bank. So I wrote this mod.
  
-Near Iron Throne building there is a locked dwelling with ogre magi inside. This is a Bank of Baldur's Gate, that was blocked due to robbing by ogres. After you kill ogre magi, you may return and find, that bank returned to work.
+Near Iron Throne building there is a locked dwelling with ogre magi inside. This is the Bank of Baldur's Gate, that was blocked due to robbing by ogres. After you kill ogre magi, you may return and find that bank returned to work.
 Go to second floor and open a deposit in talk with director Billboo:-)
 You can leave him your money or take from him any time.
  
@@ -45,6 +44,7 @@ PPPS Don't know how to rename location name or place location on area map yet.
 
 ##### Version 0.3 &nbsp;(October , 2021)
 
+- Added Russian translation (thanks yota13).
 - TRAified mod.
 - Removed useless :file_folder: "*backup*" folder.
 - Lower cased files.

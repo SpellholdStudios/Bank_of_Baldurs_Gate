@@ -9,6 +9,10 @@ LANGUAGE "English"
          "english"
          "bank_of_baldurs_gate/lang/english/setup.tra"
 
+LANGUAGE "Russian (translation by yota13)"
+         "russian"
+         "bank_of_baldurs_gate/lang/russian/setup.tra"
+
 
 /* =========================== *
  *    Bank of Baldur's Gate    *
