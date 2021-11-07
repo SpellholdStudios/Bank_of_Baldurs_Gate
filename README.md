@@ -1,8 +1,8 @@
 
-![Latest Release](https://img.shields.io/github/v/release/GwendolyneFreddy/Bank_of_Baldurs_Gate?include_prereleases&color=darkred)<a name="top" id="top"> </a>
-![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/GwendolyneFreddy/Bank_of_Baldurs_Gate?color=gold)
+![Latest Release](https://img.shields.io/github/v/release/SpellholdStudios/Bank_of_Baldurs_Gate?include_prereleases&color=darkred)<a name="top" id="top"> </a>
+![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/SpellholdStudios/Bank_of_Baldurs_Gate?color=gold)
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20macOS%20%7C%20linux%20%7C%20Project%20Infinity&color=informational)
-![Language](https://img.shields.io/static/v1?label=language&message=Spanish&color=limegreen)
+![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French%20%7C%20Russian&color=limegreen)
 
 ![Supported games](https://img.shields.io/static/v1?label=supported%20games&message=EET&color=dodgerblue)
 
@@ -19,15 +19,15 @@
 
 ## 
 
-[![Created Badge](https://badges.pufler.dev/created/GwendolyneFreddy/Bank_of_Baldurs_Gate?style=plastic)](https://badges.pufler.dev)
-![GitHub repo size](https://img.shields.io/github/repo-size/GwendolyneFreddy/Bank_of_Baldurs_Gate?style=plastic)
-[![Visits Badge](https://badges.pufler.dev/visits/GwendolyneFreddy/Bank_of_Baldurs_Gate?color=cyan&style=plastic)](https://badges.pufler.dev) 
+[![Created Badge](https://badges.pufler.dev/created/SpellholdStudios/Bank_of_Baldurs_Gate?style=plastic)](https://badges.pufler.dev)
+![GitHub repo size](https://img.shields.io/github/repo-size/SpellholdStudios/Bank_of_Baldurs_Gate?style=plastic)
+[![Visits Badge](https://badges.pufler.dev/visits/SpellholdStudios/Bank_of_Baldurs_Gate?color=cyan&style=plastic)](https://badges.pufler.dev) 
 ![Maintenance](https://img.shields.io/static/v1?label=maintained%3F&message=yes&color=greenlight&style=plastic)
-![GitHub contributors](https://img.shields.io/github/contributors/GwendolyneFreddy/Bank_of_Baldurs_Gate?color=blueviolet&style=plastic) [![Contributors Display](https://badges.pufler.dev/contributors/GwendolyneFreddy/Bank_of_Baldurs_Gate?size=30&padding=5&bots=true)](https://badges.pufler.dev)
+![GitHub contributors](https://img.shields.io/github/contributors/SpellholdStudios/Bank_of_Baldurs_Gate?color=blueviolet&style=plastic) [![Contributors Display](https://badges.pufler.dev/contributors/SpellholdStudios/Bank_of_Baldurs_Gate?size=30&padding=5&bots=true)](https://badges.pufler.dev)
 
 ## 
 
-:page_facing_up: [Read the mod's readme](https://spellholdstudios.github.io/readmes/bank_of_baldurs_gate-readme-english.txt)
+:page_facing_up: [Read the mod's readme](https://spellholdstudios.github.io/readmes/bank_of_baldurs_gate-readme-english.txt) - [Français](https://spellholdstudios.github.io/readmes/bank_of_baldurs_gate-readme-french.txt)
 
 :inbox_tray: [Download the mod at Spellhold Studios](http://www.shsforums.net/files/file/1216-bank-of-baldurs-gate-for-eet/)<br>
 
@@ -201,7 +201,7 @@ In addition to the methods above for removing individual components, you can com
 
 ## <a name="versions" id="versions"></a>Version History
 
-##### Version 0.3 &nbsp;(October nn, 2021)
+##### Version 0.3 &nbsp;(November 7, 2021)
 
 - Added *bank_of_baldurs_gate.ini* metadata file (including dynamic installation order syntax and global `LABELS`) to support AL|EN's "Project Infinity".
 - Renamed *Setup-Bank_of_Baldurs_Gate.tp2* -> *bank_of_baldurs_gate.tp2*, and moved it into mod top folder to support AL|EN's "Project Infinity".
