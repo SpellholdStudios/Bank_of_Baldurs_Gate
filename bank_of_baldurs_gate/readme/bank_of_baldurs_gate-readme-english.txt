@@ -1,4 +1,4 @@
-*****************************************
+﻿*****************************************
 *         BANK of BALDUR'S GATE         *
 *             A mod for EET             *
 *              Version 0.3              *
@@ -57,7 +57,7 @@ This mod has been created using the following tools:
 5. VERSION HISTORY
 ==================
 
-Version 0.3 (October 30, 2021)
+Version 0.3 (November 7, 2021)
 ------------------------------
 - Added 'bank_of_baldurs_gate.ini' metadata file (including dynamic installation order syntax and global `LABELS`) to support AL|EN's "Project Infinity".
 - Renamed 'Setup-Bank_of_Baldurs_Gate.tp2' -> 'bank_of_baldurs_gate.tp2', and moved it into mod top folder to support AL|EN's "Project Infinity".
@@ -71,7 +71,6 @@ Version 0.3 (October 30, 2021)
 - Added Russian translation (thanks yota13).
 - Proofread English strrefs.
 - TRAified mod.
-
 - Translated, updated, and renamed readme files to "bank_of_baldurs_gate-readme-%LANGUAGE%.txt", then moved them into new "readme" folder.
 - Removed useless "backup" folder.
 - Lower cased files.
