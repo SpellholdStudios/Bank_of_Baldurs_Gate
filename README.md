@@ -1,3 +1,8 @@
+<hr>
+
+:warning: **The maintenance and support of this project has been moved to a [new repository](https://github.com/Spellhold-Studios/Bank-of-Baldurs-Gate).**
+
+<hr><br>
 
 ![Latest Release](https://img.shields.io/github/v/release/SpellholdStudios/Bank_of_Baldurs_Gate?include_prereleases&color=darkred)<a name="top" id="top"> </a>
 ![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/SpellholdStudios/Bank_of_Baldurs_Gate?color=gold)
@@ -27,7 +32,7 @@
 
 ## 
 
-:page_facing_up: [Read the mod's readme](https://spellholdstudios.github.io/readmes/bank_of_baldurs_gate-readme-english.txt) - [Français](https://spellholdstudios.github.io/readmes/bank_of_baldurs_gate-readme-french.txt)
+:page_facing_up: [Read the mod's readme](https://spellholdstudios.github.io/readmes/bank_of_baldurs_gate-readme-english.txt) - [FranÃ§ais](https://spellholdstudios.github.io/readmes/bank_of_baldurs_gate-readme-french.txt)
 
 :inbox_tray: [Download the mod at Spellhold Studios](http://www.shsforums.net/files/file/1216-bank-of-baldurs-gate-for-eet/)<br>
 
